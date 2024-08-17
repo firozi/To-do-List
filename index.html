@@ -3,11 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="list.png">
 </head>
 <body>
     <div class="container">
-        <div class="card"></div>
+        <div class="card">
+            <div class="head">
+                <h2>To-Do List</h2>
+            <img src="images/icon.png" alt="">
+            </div>
+            <div class="search">
+                <input type="text" id="search" placeholder="Add your task">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <div class="task">
+                <ul>
+                    
+                </ul>
+            </div>
+        </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
